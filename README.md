@@ -1,6 +1,6 @@
 # Filters
 
-![Filters — efeitos visuais controlados por gestos](assets/cover.png)
+![Filters — efeitos visuais controlados por gestos](cover.png)
 
 **Transforme o espaço entre suas mãos em um portal de efeitos visuais.**
 
