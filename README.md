@@ -62,15 +62,14 @@ O rastreamento depende da iluminação e da visibilidade das mãos. A câmera pa
 ## Estrutura
 
 ```text
-Filters-GitHub/
-├── assets/cover.png       # Capa conceitual original
+Filter/
+├── cover.png              # Capa conceitual original
 ├── main.py                # Captura, rastreamento e interface
 ├── filters.py             # Oito efeitos e sua ordem
 ├── geometry.py            # Portal e detector de fechamento
 ├── hand_tracking.py       # Índices dos landmarks e utilitário de dedos
 ├── requirements.txt       # Dependências do projeto original
 ├── Iniciar-Filters.cmd    # Iniciador portátil para Windows
-├── graphify-out/          # Mapa estático do código
 └── README.md
 ```
 
@@ -98,7 +97,3 @@ Esta versão inclui título de janela, botão Encerrar, tratamento do fechamento
 ### Licença
 
 O README original declara licença MIT, mas o clone usado nesta preparação não contém um arquivo `LICENSE`. Esta pasta não inventa termos nem titulares de direitos; confirme o texto da licença com o projeto de origem antes de redistribuir sob uma licença específica.
-
-## Mapa do código
-
-O [relatório Graphify](graphify-out/GRAPH_REPORT.md) descreve 27 elementos, 66 relações e quatro comunidades. Abra `graphify-out/graph.html` no navegador para explorar o mapa; `graph.json` contém os dados. A análise estática cobriu os quatro arquivos Python, sem análise da capa ou do README. Relações marcadas como inferidas não comprovam execução em tempo real.
